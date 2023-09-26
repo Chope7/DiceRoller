@@ -3,6 +3,22 @@ body{
     background-image:url("https://pbs.twimg.com/media/FrGjBAGagAI5C6w?format=jpg&name=4096x4096");   
 }
 
+#music{
+    color:rgb(232, 209, 187);
+    font-size:100%;
+    font-family:'Baskerville';
+}
+
+.music{
+    
+    text-align: center;
+    background-color: rgb(238, 185, 99);
+    font-family:'Baskerville';
+    font-size:120%;
+    padding: 2px;
+    
+}
+
 
 #total_label{
     display:inline;
@@ -103,8 +119,4 @@ button{
     font-size:120%;
     padding: 20px;
     
-}
-.bt_dunder{
-    background-color: rgb(246, 182, 118);
-    padding: 10px;
 }
