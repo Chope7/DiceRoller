@@ -1,41 +1,107 @@
 body{
-    background-color: rgb(205, 162, 211);
+    /*background-color: rgb(205, 162, 211);*/
+    background-image:url("https://pbs.twimg.com/media/FrGjBAGagAI5C6w?format=jpg&name=4096x4096");   
 }
 
 
 #total_label{
-    display:block;
+    display:inline;
     text-align: center;
-    color:rgb(189, 84, 142);
-    font-size:150%;
+    background-color: rgb(246, 166, 120);
+    color:rgb(51, 38, 30);
+    font-size:175%;
     font-family:'Baskerville';
 }
 
 
+#diceNum{
+    display:block;
+    color:rgb(232, 209, 187);
+    font-size:130%;
+    font-family:'Baskerville';
+}
+
+#d2label{
+    display:block;
+    color:rgb(232, 209, 187);
+    font-size:130%;
+    font-family:'Baskerville';
+}
+
+#d4label{
+    display:block;
+    color:rgb(232, 209, 187);
+    font-size:130%;
+    font-family:'Baskerville';
+}
+
+#d6label{
+    display:block;
+    color:rgb(232, 209, 187);
+    font-size:130%;
+    font-family:'Baskerville';
+}
+
+#d8label{
+    display:block;
+    color:rgb(232, 209, 187);
+    font-size:130%;
+    font-family:'Baskerville';
+}
+
+#d10label{
+    display:block;
+    color:rgb(232, 209, 187);
+    font-size:130%;
+    font-family:'Baskerville';
+}
+
+#d12label{
+    display:block;
+    color:rgb(232, 209, 187);
+    font-size:130%;
+    font-family:'Baskerville';
+}
+
+#d20label{
+    display:block;
+    color:rgb(232, 209, 187);
+    font-size:130%;
+    font-family:'Baskerville';
+}
+
+#d100label{
+    display:block;
+    color:rgb(232, 209, 187);
+    font-size:130%;
+    font-family:'Baskerville';
+}
+
 
 h1{
-    color:rgb(220, 106, 146);
+    color:rgb(240, 144, 109);
     font-size:300%;
     font-family:'Lucida Handwriting';
 }
 
-h2{
-    color:rgb(241, 137, 194);
-    font-size:150%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-h3,h4{
-    color:rgb(243, 97, 105);
-    font-size:medium;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
 button{
     
     text-align: center;
-    background-color: rgb(185, 129, 211);
+    background-color: rgb(228, 206, 150);
+    font-family:'Baskerville';
+    font-size:100%;
     padding: 10px;
+    
+}
+
+.button_total{
+    
+    text-align: center;
+    background-color: rgb(238, 185, 99);
+    font-family:'Baskerville';
+    font-size:120%;
+    padding: 20px;
     
 }
 .bt_dunder{
