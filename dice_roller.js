@@ -109,5 +109,5 @@ document.getElementById("rolld100_button").onclick= function d100roll(){
 //Calculate Total
 document.getElementById("getTotal_button").onclick= function total(){
     let tot=totd2+totd4+totd6+totd8+totd10+totd12+totd20+totd100;
-    document.getElementById("total_label").innerHTML = "The total is: " + tot;
+    document.getElementById("total_label").innerHTML = "The total is: " + tot+".";
 }
